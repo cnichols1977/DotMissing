@@ -14,3 +14,8 @@ FirstDayOfYearDate|Return DateTime with it set to January 1st and the time set t
 LastDayOfYearDate|Return the DateTime with it set to the last day of the year and the time set to min time.
 IsWeekday|Return True if the DateTime is NOT a Saturday or Sunday.
 IsWeekend|Return True if the DataTime is a Saturday or Sunday.
+
+## String Extensions 
+Method|Description
+------|-----------
+ToChunks(int chunkSize)|Split the string into a Collection of strings with each string no bigger than the specified chunkSize.
