@@ -18,4 +18,6 @@ IsWeekend|Return True if the DataTime is a Saturday or Sunday.
 ## String Extensions 
 Method|Description
 ------|-----------
+Repeat(int count)|Return the string *count* times.
 ToChunks(int chunkSize)|Split the string into a Collection of strings with each string no bigger than the specified chunkSize.
+ToNullOrWhiteSpace|Return True if string is null or only contains whitespace characters.
